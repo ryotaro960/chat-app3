@@ -63,17 +63,102 @@
   width: 100%;
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-name{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.header-exit{
+  margin-top: 40px;
+}
+
+.header-exit a{
+  border: darkred solid 1px;
+  color: darkred;
+  padding: 20px;
+  text-decoration: none;
 }
 
 .main-bar-contents{
   width: 100%;
   height: calc(100% - 100px - 90px);
   padding: 46px 40px 0;
+  overflow: auto;
 }
+
+.comment-box{
+  margin-bottom: 40px;
+}
+
+.comment-title{
+  display: flex;
+  padding: 10px 0;
+}
+
+.comment-name{
+  font-size: 16px;
+  color: #434A54;
+  margin-right: 10px;
+}
+.comment-date{
+  font-size: 12px;
+  color: #999;
+}
+
+/* メインバー／フッター */
 
 .main-bar-footer{
   background-color: #DDDDDD;
   width: 100%;
   height: 90px;
   padding: 20px 40px;
+
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message-form{
+  width: 100%;
+  margin-right: 15px;
+  display: flex;
+  background-color: white;
+}
+
+.form-input{
+  border: none;
+  padding-left: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.send-button{
+  background-color: #38AEF0;
+  border:none;
+  padding:0 20px;
+  color: white;
+  font-size: 16px;
+  height: 50px;
 }
