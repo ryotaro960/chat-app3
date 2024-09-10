@@ -12,6 +12,7 @@
 </div>
 
 <div class="main-bar-footer">
+  <div class="form">
     <%= form_with model: [@room, @message], html: {class: "form"}, local: true do |f|%>
       <div class="form-input">
         <%= f.text_field :content, class: 'form-message', placeholder: 'type a message' %>
@@ -22,4 +23,5 @@
       </div>
       <%= f.submit '送信', class: 'form-submit' %>
     <% end %>
+  </div>
 </div>
