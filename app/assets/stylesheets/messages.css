@@ -86,7 +86,7 @@
 
 .main-bar-contents{
   width: 100%;
-  height: calc(100% - 100px - 90px);
+  height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
   overflow: auto;
 }
@@ -124,16 +124,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
-.message-form{
+.form-input{
   width: 100%;
   margin-right: 15px;
   display: flex;
   background-color: white;
 }
 
-.form-input{
+.form-message{
   border: none;
   padding-left: 10px;
   height: 50px;
@@ -154,7 +155,7 @@
   display: none;
 }
 
-.send-button{
+.form-submit{
   background-color: #38AEF0;
   border:none;
   padding:0 20px;
